@@ -17,12 +17,27 @@
   flex-direction: row;
 }
 
+.row.reverse {
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
 .col {
   display: flex;
-  min-width: 50px;
+  width: 12.5%;
+  min-width: 80px;
   border: 1px solid #ddd;
   border-collapse: collapse;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 80px;
+}
+
+.col.black {
+  background-color: black;
+  color: white;
+}
+.col.white {
+  background-color: white;
+  color: black;
 }
